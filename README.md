@@ -12,3 +12,7 @@ The compare_variation.pl script counts the variants overlapping the annotation o
 
 perl compare_variation.pl -in EIEE_gene_list.txt -sp human -out variation_comparison_output.txt
 
+
+Dependencies
+- Ensembl API (recommended v92)
+- Getopt::Long
