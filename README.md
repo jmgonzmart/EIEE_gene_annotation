@@ -1,6 +1,6 @@
-# EIEE_gene_annotation
+# EIEE gene annotation
 
-This repository contains several scripts used for the EIEE-related gene annotation comparison in the manuscript "Systematic re-annotation of 191 genes associated with early-onset epilepsy unmasks de novo variants linked to Dravet syndrome in novel SCN1A exons" by Steward et al., submitted to Nature Genomic Medicine.
+This repository contains several scripts used for the EIEE-related gene annotation comparison in the publication "Re-annotation of 191 developmental and epileptic encephalopathy-associated genes unmasks de novo variants in SCN1A" by Steward et al., NPJ Genom Med. 2019; 4: 31.
 
 a) Novel exon sequence after gene re-annotation
 The compare_annotation.pl script counts novel exons, novel introns, shifted splice junctions and novel genomic coverage after the re-annotation of the EIEE-related genes. The comparison is made between the GENCODE v20 and GENCODE v28 releases.
@@ -13,6 +13,6 @@ The compare_variation.pl script counts the variants overlapping the annotation o
 perl compare_variation.pl -in EIEE_gene_list.txt -sp human -out variation_comparison_output.txt
 
 
-Dependencies
-- Ensembl API (recommended v92)
+## Dependencies
+- Ensembl Perl API (recommended v92)
 - Getopt::Long
