@@ -8,7 +8,7 @@ The compare_annotation.pl script counts novel exons, novel introns, shifted spli
 perl compare_annotation.pl -in EIEE_gene_list.txt -sp human -out annotation_comparison_output.txt
 
 b) Variants in the novel sequences after gene re-annotation
-The compare_variation.pl script counts the variants overlapping the annotation of the EIEE-related genes in the GENCODE v20 and GENCODE v28 releases and which of them are uniqu to the novel annotation. The variants are extracted from the Ensembl variation dataset "All phenotype-associated - short variants (SNPs and indels)".
+The compare_variation.pl script counts the variants overlapping the annotation of the EIEE-related genes in the GENCODE v20 and GENCODE v28 releases and which of them are unique to the novel annotation. The variants are extracted from the Ensembl variation dataset "All phenotype-associated - short variants (SNPs and indels)".
 
 perl compare_variation.pl -in EIEE_gene_list.txt -sp human -out variation_comparison_output.txt
 
